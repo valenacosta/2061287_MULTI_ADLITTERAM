@@ -32,14 +32,8 @@ p{
 	color: #f5f5f5;
 	text-align: center;
 	background-color: #ED6D1D;
-}
-
-.footer-item{
 	padding-top: 20px;
 	padding-bottom: 20px;
-	padding-left: 12px;
-	display: inline-flex;
-	width: 30%;
 }
 
 .hero-content{
