@@ -14,6 +14,7 @@ p{
 	top: 0;
 	font-size: 25px;
 	height: 100vh;
+	z-index: 100;
 }
 
 .navigation-item{
@@ -29,10 +30,6 @@ p{
 	display:inline-block;
 	width:400px;
 	height:200px;
-	/* position:absolute; */
-	/* top: 260; */
-	/* left:500; */
-	/* right: 130 */
 }
 
 .hero-dos{
@@ -69,33 +66,25 @@ p{
 }
 
 form{
-	width:50%;
 	padding:20px;
 	border-radius:10px;
 	background-color:#ED6D1D;
-	position:absolute;
-	left:25%;
-	top:250px;
 }
 
 form label{
-	width:200px;
-	height:60px;
-	font-size:25px;text-align:center;
+	font-size:25px;
+	text-align:center;
 	font-weight:bold;
-	display:inline-block;
 }
 
 form input[type="text"],
 form input[type="email"]{
-	width:300px;
-	height:40px;
 	padding:3px 10px;
 	border:1px solid #f6f6f6;
 	border-radius:3px;
 	background-color:#f6f6f6;
-	margin:8px 0;
 	display:inline-block;
+	width: 80%;
 }
 
 form input[type="submit"]{
@@ -127,14 +116,8 @@ form input[type="submit"]:hover{
 	color: #f5f5f5;
 	text-align: center;
 	background-color: #ED6D1D;
-}
-
-.footer-item{
-	padding-top: 20px;
+	padding-top: 10px;
 	padding-bottom: 20px;
-	padding-left: 12px;
-	display: inline-flex;
-	width: 30%;
 }
 @font-face {
        font-family: 'Roboto';
